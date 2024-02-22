@@ -1,0 +1,66 @@
+<!-- Build your First Form, students can deside on the theme.
+
+Challenge 1: Use the text input to get the user name 
+Challenge 2: Use lable in appropriate places
+Challenge 3: use different form input elements
+Challenge 4: When the form is submitted, get the user's response and add the same to the body of the mail with your email id in the "to" section.
+-->
+
+<!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <h2>Hostel Room Booking</h2>
+  <form action="result.html" method="GET">
+    <label> Name of the Student : </label> <br>
+    <input type="text" name="name" placeholder="Your Name">
+ <br>
+    <label>  University Roll No : </label><br>
+    <input type="text" name="roll" placeholder="Reg No">
+<br>
+<label for="Gender">Gender : </label><br>
+<input type="radio" value="Female">Female<br>
+<input type="radio" value="Male">Male<br>
+
+<br>
+<label> Select the hostel </label>
+    <select name= hostel value="hostel">
+      <option value="Bhavani">Bhavani</option>
+      <option value="Bhavani">Vaigai</option>
+      <option value="Bhavani">Kaver</option>
+      <option value="Bhavani">Amaravathy</option>
+    </select>
+<br>
+    <br>
+     <label> Type of room :</label> <br>
+     <input type="checkbox" name="room" value="1">Attached Washroom <br>
+     <input type="checkbox" name="room" value="1">Common Washroom <br>
+       
+
+<br>
+<label> Type of Food :</label> <br>
+<input type="checkbox" name="room" value="1">Veg <br>
+<input type="checkbox" name="room" value="1">Non- Veg <br>
+<input type="checkbox" name="room" value="1">Both <br>
+<br>
+
+<label>Select Floor </label><br>
+<input type="radio" value="1">1st Floor <br>
+<input type="radio" value="2">2nd Floor <br>
+<input type="radio" value="3">3rd Floor <br>
+<input type="radio" value="4">4th Floor <br>
+
+<input type="submit">
+
+
+  </form>
+
+  
+</body>
+</html>
